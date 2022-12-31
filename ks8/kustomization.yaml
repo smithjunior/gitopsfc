@@ -2,10 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 images:
-  - name: goserver
-    newName: smithjunior/gitopsfc
-    newTag: sha
+- name: goserver
+  newName: smithjunior/gitopsfc
+  newTag: e0567dd5a69e0cc6bc3e35813bb5a101e77f3ddd

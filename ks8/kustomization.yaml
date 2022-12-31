@@ -8,4 +8,4 @@ resources:
 images:
 - name: goserver
   newName: smithjunior/gitopsfc
-  newTag: e0567dd5a69e0cc6bc3e35813bb5a101e77f3ddd
+  newTag: a94980edffd21e0954a4d3817990edc6ba94edfd
